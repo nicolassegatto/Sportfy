@@ -207,3 +207,34 @@ a:link{
     display: inline-block;
     margin-left: 10px;
 }
+
+@media (max-width: 768px) {
+    
+#navbar{
+    height: 200px;  
+}
+    
+#navbar .nav-container{
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+#navbar .nav-container .nav-items{
+    flex-direction: column;
+    text-align: center;
+}
+
+#navbar .nav-container .nav-items .nav-item {
+    padding: 3px 0;
+}
+
+#navbar .nav-container .nav-items .nav-item:nth-child(3){
+    border-bottom: 1px solid white;
+    border-right: none;
+}
+
+#footer .footer-content{
+    flex-direction: column;
+}
+
+}
