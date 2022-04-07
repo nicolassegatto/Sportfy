@@ -95,7 +95,7 @@ a:link{
     justify-content: center;
     align-items: center;
     color: white;
-    background: url("/IMG/cover.jpg") center center/cover ;
+    background: url("../IMG/cover.jpg") center center/cover ;
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: color;
 }
