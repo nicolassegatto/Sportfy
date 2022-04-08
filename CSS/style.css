@@ -290,6 +290,10 @@ a:link{
     margin-bottom: 50px;
 }
 
+#footer .footer-content .footer-menu{
+    margin: auto;
+}    
+    
 #footer .footer-content .footer-menu .menu1{
     grid-column: 1/2;
     grid-row: 2/3;
@@ -312,6 +316,7 @@ a:link{
 
 #footer .footer-info{
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     width: 90%;
     
