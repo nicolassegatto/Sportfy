@@ -250,7 +250,7 @@ body{
 }
 
 #navbar{
-    height: 8vh;  
+    height: auto;  
     position: relative;
     background-color: black;
 }
@@ -266,7 +266,7 @@ body{
     top: 8vh;
     right: 0;
     width: 100vw;
-    height: 92vh;
+    height: auto;
     flex-direction: column;
     text-align: left;
     background-color: black;
