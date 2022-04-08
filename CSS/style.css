@@ -250,7 +250,7 @@ body{
 }
 
 #navbar{
-    height: auto;  
+    height: 100px;  
     position: relative;
     background-color: black;
 }
@@ -263,10 +263,10 @@ body{
 
 #navbar .nav-container .nav-items{
     position: absolute;
-    top: 8vh;
+    top: 100px;
     right: 0;
     width: 100vw;
-    height: auto;
+    height: 100vh;
     flex-direction: column;
     text-align: left;
     background-color: black;
