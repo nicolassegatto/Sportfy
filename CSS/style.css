@@ -223,16 +223,17 @@ a:link{
     margin-bottom: 10px;
 }
 .footer-info .rights .country .me{
-    height: 20px;
+    height: 40px;
     width: auto;
     display: inline-block;
     margin-left: 10px;
+    border-radius: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1243px) {
     
 #navbar{
-    height: 200px;  
+    height: 160px;  
     position: relative;
     background-color: black;
 }
@@ -240,6 +241,7 @@ a:link{
 #navbar .nav-container{
     flex-direction: row;
     padding: 20px 0;
+    width: 85%;
 }
 
 #navbar .nav-container .nav-items{
@@ -287,11 +289,12 @@ a:link{
 #footer .footer-content .logo{
     grid-column: 1/4;
     grid-row: 1/2;
-    margin-bottom: 50px;
+    margin: 10px 0px;
 }
 
 #footer .footer-content .footer-menu{
-    margin: auto;
+    margin: 5px;
+    text-align: center;
 }    
     
 #footer .footer-content .footer-menu .menu1{
@@ -319,7 +322,19 @@ a:link{
     flex-wrap: wrap;
     justify-content: center;
     width: 90%;
-    
+}
+
+#footer .footer-info .footer-info-items{
+    border-top: 1px solid white;
+    padding: 5px;
+}
+
+#footer .footer-info .rights{
+    margin-top: 15px;
+}
+#footer .footer-info .rights .country img{
+    border-radius: 50%;
+    height: 30px;
 }
 
 }
